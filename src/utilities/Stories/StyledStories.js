@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const StoriesWrapper = styled.div`
     border: 1px solid #dbdbdb;
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: white;
     padding: 15px;
     margin-bottom: 20px;

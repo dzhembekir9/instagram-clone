@@ -15,7 +15,9 @@ const Post = () => {
                 <UserInfo>
                     <div style={{display: 'flex'}}>
                         <img src={user} alt="user" style={{width: '40px', height: '40px', borderRadius: '100px', marginRight: '15px', alignSelf: 'center'}}/>
-                        <p>user.name</p>
+                        <div style={{display: 'flex', alignSelf: 'center'}}>
+                            <div>user.name</div>
+                        </div>
                     </div>
                     <img src={menu} alt="menu" style={{width: '15px', marginRight: '5px'}}/>
                 </UserInfo>
@@ -48,7 +50,7 @@ const Post = () => {
                         <input type="text" placeholder="Add comment..."  style={{width: '500px', fontSize: '15px'}}/>
                     </div>
                     <div>
-                        <p style={{marginRight: '10px', color: '#0095f6'}}>Post</p>
+                        <div style={{marginRight: '10px', color: '#0095f6'}}>Post</div>
                     </div>
                 </CommentWrapper>
             </PostWrapper>

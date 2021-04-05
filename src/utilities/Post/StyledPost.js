@@ -2,10 +2,11 @@ import styled from 'styled-components'
 
 export const PostWrapper = styled.div`
     border: 1px solid #dbdbdb;
-    border-radius: 5px;
-    background-color: white;
     display: flex;
+    border-radius: 3px;
+    background-color: white;
     flex-direction: column;
+    margin-bottom: 60px;
 `;
 
 export const UserInfo = styled.div`
@@ -35,6 +36,7 @@ export const CommentWrapper = styled.div`
     align-items: center;
     border-top: 1px solid #dbdbdb;
     margin-top: 10px;
+    padding: 12px;
 
     div {
         input {

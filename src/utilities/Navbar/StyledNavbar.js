@@ -8,7 +8,9 @@ export const NavbarWrapper = styled.div`
     align-items: center;
     height: 60px;
     font-size: 14px;
-    padding: 0 200px;
+    padding: 0 220px;
+    position: sticky;
+    top: 0;
 `;
 
 export const InputWrapper = styled.div`

@@ -1,5 +1,5 @@
 import user from '../../images/user-img.jpg'
-import { Wrapper, UserWrapper, SuggestionsWrapper, FooterWrapper } from '../../utilities/Sidebar/StyledSidebar'
+import { Wrapper, UserWrapper, SuggestionsWrapper, FooterWrapper, Button } from '../../utilities/Sidebar/StyledSidebar'
 
 const Sidebar = () => {
     return (
@@ -8,47 +8,57 @@ const Sidebar = () => {
                 <div style={{display: 'flex', alignItems: 'center'}}>
                     <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
                     <div>
-                        <p>user.name</p>
-                        <p>User Name</p>
+                        <div>user.name</div>
+                        <div style={{color: '#8e8e8e', fontSize: '15px'}}>User Name</div>
                     </div>
                 </div>
-                <p>Switch</p>
+                <Button>Switch</Button>
             </UserWrapper>
 
             <SuggestionsWrapper>
                 <div style={{display: 'flex', justifyContent: 'space-between'}}>
                     <p style={{color: '#8e8e8e'}}>Suggestions for you</p>
-                    <p>See all</p>
+                    <div style={{fontSize: '12px', fontWeight: 'bold'}}>See all</div>
                 </div>
                 <UserWrapper>
                     <div style={{display: 'flex', alignItems: 'center'}}>
                         <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
                         <div>
-                            <p>user.name</p>
-                            <p>Suggested for you</p>
+                            <div>user.name</div>
+                            <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
                         </div>
                     </div>
-                    <p>Follow</p>
+                    <Button>Follow</Button>
                 </UserWrapper>
                 <UserWrapper>
                     <div style={{display: 'flex', alignItems: 'center'}}>
                         <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
                         <div>
-                            <p>user.name</p>
-                            <p>Suggested for you</p>
+                            <div>user.name</div>
+                            <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
                         </div>
                     </div>
-                    <p>Follow</p>
+                    <Button>Follow</Button>
                 </UserWrapper>
                 <UserWrapper>
                     <div style={{display: 'flex', alignItems: 'center'}}>
                         <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
                         <div>
-                            <p>user.name</p>
-                            <p>Suggested for you</p>
+                            <div>user.name</div>
+                            <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
                         </div>
                     </div>
-                    <p>Follow</p>
+                    <Button>Follow</Button>
+                </UserWrapper>
+                <UserWrapper>
+                    <div style={{display: 'flex', alignItems: 'center'}}>
+                        <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
+                        <div>
+                            <div>user.name</div>
+                            <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
+                        </div>
+                    </div>
+                    <Button>Follow</Button>
                 </UserWrapper>
             </SuggestionsWrapper>
 
@@ -69,7 +79,7 @@ const Sidebar = () => {
                     <p>Language</p>
                 </div>
                 <div>
-                    <p>2021 Instagram from Facebook</p>
+                    <p style={{textTransform: 'uppercase'}}>&copy; 2021 Instagram from Facebook</p>
                 </div>
             </FooterWrapper>
         </Wrapper>
