@@ -22,7 +22,7 @@ const Sidebar = () => {
                 </div>
                 <UserWrapper>
                     <div style={{display: 'flex', alignItems: 'center'}}>
-                        <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
+                        <img src={user} alt="user-profile" style={{width: '30px', height: '30px', borderRadius: '100px'}}/>
                         <div>
                             <div>user.name</div>
                             <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
@@ -32,7 +32,7 @@ const Sidebar = () => {
                 </UserWrapper>
                 <UserWrapper>
                     <div style={{display: 'flex', alignItems: 'center'}}>
-                        <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
+                        <img src={user} alt="user-profile" style={{width: '30px', height: '30px', borderRadius: '100px'}}/>
                         <div>
                             <div>user.name</div>
                             <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
@@ -42,7 +42,7 @@ const Sidebar = () => {
                 </UserWrapper>
                 <UserWrapper>
                     <div style={{display: 'flex', alignItems: 'center'}}>
-                        <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
+                        <img src={user} alt="user-profile" style={{width: '30px', height: '30px', borderRadius: '100px'}}/>
                         <div>
                             <div>user.name</div>
                             <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
@@ -52,7 +52,17 @@ const Sidebar = () => {
                 </UserWrapper>
                 <UserWrapper>
                     <div style={{display: 'flex', alignItems: 'center'}}>
-                        <img src={user} alt="user-profile" style={{width: '50px', height: '50px', borderRadius: '100px'}}/>
+                        <img src={user} alt="user-profile" style={{width: '30px', height: '30px', borderRadius: '100px'}}/>
+                        <div>
+                            <div>user.name</div>
+                            <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>
+                        </div>
+                    </div>
+                    <Button>Follow</Button>
+                </UserWrapper>
+                <UserWrapper>
+                    <div style={{display: 'flex', alignItems: 'center'}}>
+                        <img src={user} alt="user-profile" style={{width: '30px', height: '30px', borderRadius: '100px'}}/>
                         <div>
                             <div>user.name</div>
                             <div style={{color: '#8e8e8e', fontSize: '12px'}}>Suggested for you</div>

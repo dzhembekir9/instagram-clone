@@ -11,6 +11,12 @@ export const NavbarWrapper = styled.div`
     padding: 0 220px;
     position: sticky;
     top: 0;
+
+    div {
+        img {
+            cursor: pointer;
+        }
+    }
 `;
 
 export const InputWrapper = styled.div`
