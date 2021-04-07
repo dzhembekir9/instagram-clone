@@ -9,7 +9,7 @@ import search from '../../images/search.png'
 import create from '../../images/create.png'
 import UserDropdown from '../../components/UserDropdown/UserDropdown'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 import Create from '../../components/Create/Create'
 
 const Navbar = () => {
@@ -17,6 +17,7 @@ const Navbar = () => {
     const [isUserOpen, setIsUserOpen] = useState(false);
     const [isNotificationOpen, setIsNotificationOpen] = useState(false);
     const [isCreateOpen, setIsCreateOpen] = useState(false);
+    const history = useHistory();
 
     const imgStyle = {
         width: '25px',
@@ -30,7 +31,7 @@ const Navbar = () => {
     return (
         <NavbarWrapper>
 
-            <Link to="/">
+            <Link onClick={() => history.go(0)} to="/">
                 <d style={{fontFamily: 'sans-serif', fontSize: '25px'}}>Instagram</d>
             </Link>
             <InputWrapper>

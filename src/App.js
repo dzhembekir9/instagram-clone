@@ -8,15 +8,20 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { useState } from 'react';
 
 function App() {
+
+  const [posts, setPosts] = useState([]);
+  const [stories, setStories] = useState([]);
+
   return (
     <Switch>
       <div className="App">
         <GlobalStyle />
         <Route exact path="/">
             <Navbar />
-            <Main />
+            <Main posts={posts} setPosts={setPosts}/>
         </Route>
       </div>
     </Switch>
